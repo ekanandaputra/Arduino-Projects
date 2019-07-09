@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial data_serial(3,4);
+SoftwareSerial data_serial(3,4); //RX, TX
 String dt[10];
 String dataIn;
 int i=0;
